@@ -1,0 +1,18 @@
+Basic integration#
+
+Integrating Ramp Instant in hosted mode is pretty straightforward - the only thing you need to do is to redirect your user to https://buy.ramp.network/. Note that this approach will work for both desktop and mobile integrations - no extra work needed! Just add a link to your app.
+
+<a href="https://buy.ramp.network/" target="_blank">Go to Ramp Instant</a>
+
+If you want to set some custom options for your integration, just add them as query parameters to the URL.
+
+For example, let's set a userAddress param so that it'll be prefilled for the user.
+
+<a
+  href="https://buy.ramp.network/?userAddress=user blockchain address"
+  target="_blank"
+>
+  Go to Ramp Instant
+</a>
+
+Now, when a user goes through the purchase flow, their crypto will be sent to the specified address.
