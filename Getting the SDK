@@ -1,0 +1,21 @@
+Getting the SDK#
+First, you'll need to add our SDK to your project.
+
+If you use npm or yarn, run:
+
+# npm
+$ npm install @ramp-network/ramp-instant-sdk
+
+# yarn
+$ yarn add @ramp-network/ramp-instant-sdk
+You can also use a CDN and a script tag. You can learn how to use this method here.
+
+Using the SDK#
+In order to start the widget, you need to provide some basic configuration to the constructor of our SDK.
+
+A basic example looks like this:
+
+new RampInstantSDK({
+  hostAppName: 'Maker DAO',
+  hostLogoUrl: 'https://cdn-images-1.medium.com/max/2600/1*nqtMwugX7TtpcS-5c3lRjw.png',
+}).show();
