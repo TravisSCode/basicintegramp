@@ -9,6 +9,7 @@ $ npm install @ramp-network/ramp-instant-sdk
 
 # yarn
 $ yarn add @ramp-network/ramp-instant-sdk
+
 You can also use a CDN and a script tag. You can learn how to use this method here.
 
 A basic example looks like this:
